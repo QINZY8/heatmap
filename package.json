@@ -1,0 +1,20 @@
+{
+  "name": "heatmap",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "deploy": "npx wrangler deploy"
+  },
+  "cloudflare": {
+    "bindings": {
+      "GITHUB_TOKEN": {
+        "description": "GitHub personal access token used to query the contribution calendar. Create a classic token at [github.com/settings/tokens/new](https://github.com/settings/tokens/new) and tick `read:user`."
+      }
+    }
+  },
+  "dependencies": {
+    "jpeg-js": "^0.4.4",
+    "upng-js": "^2.1.0"
+  }
+}

@@ -1,0 +1,3 @@
+# GitHub personal access token used to query the contribution calendar.
+# Create a classic token at https://github.com/settings/tokens/new and tick read:user.
+GITHUB_TOKEN=ghp_your_token_here
